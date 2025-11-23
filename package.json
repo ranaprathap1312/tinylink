@@ -1,0 +1,32 @@
+{
+  "name": "tinylink",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "lucide-react": "^0.379.0",
+    "nanoid": "^5.0.7",
+    "next": "^14.2.33",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "sonner": "^1.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prisma": "^5.14.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.4.0"
+  }
+}
