@@ -1,5 +1,5 @@
 // app/[code]/route.ts   ← THIS IS THE REDIRECT FILE
-export const dynamic = "force-dynamic";
+
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 
